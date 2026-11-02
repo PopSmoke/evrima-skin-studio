@@ -1,0 +1,13 @@
+{
+  "name": "Evrima Skin Studio",
+  "edition": "Idle Edition",
+  "version": "1.4.1",
+  "platform": "Windows x64",
+  "models": 29,
+  "idle_clips": 29,
+  "pattern_choices": 98,
+  "full_resolution_textures": 253,
+  "source_build": 24664737,
+  "texture_storage": "lossless WebP / PNG",
+  "texture_pixels_unchanged": true
+}

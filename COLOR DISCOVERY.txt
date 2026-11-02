@@ -1,0 +1,91 @@
+COLOR AND INTERACTION DISCOVERY
+
+These methods come from this project's decoded-material experiments, not an
+official modding specification. Bright-looking surface color is not proof of
+emission, lighting nearby objects, or visibility at night in the live game.
+
+WHAT THE LOCAL STUDIES SUPPORT
+
+1. Raise one strong channel while keeping secondary channels bounded.
+   In the Bright-Color-Study, raising every RGB channel by 1e8 washed many
+   previews toward white. Raising only the leading channel retained much more
+   vivid coverage. Modest gains can retain more detail than enormous values.
+   Try changing the leading channel through 1, 8, 64, 4096, 1e8 and 1e22 while
+   the remaining channels stay around .004, .08, .35 or 1. These are search
+   inputs, not guaranteed display colors. Bright blue can have low luminance;
+   use Vivid color ranking as well as Bright area.
+
+2. Use a negative source section to reshape a positive target section.
+   Body/flank, body/underbelly and markings/flank are useful starting pairs in
+   the existing study. Body slots feed a shared shader with overlapping masks.
+   A very negative contribution can cancel positive color in overlap regions;
+   clipping sharpens the resulting boundaries. This can expose broken or
+   speckled detail without selecting a separate pixelation shader.
+   A previously reproduced cyan example on Carno and Omni, adult male,
+   patterns 1 and 2, standard model, variation 8:
+     b = [-999999, -999999, -999999]
+     f = [0.004, 8, 8]
+     md, m, u, d = [0.01, 0.01, 0.01]
+     alpha = 1; original eyes enabled.
+   This is a decoded-preview reproduction, not confirmed live-game parity.
+
+3. Signed channels are worth testing, but are not a general brightness boost.
+   Push the weakest channel below zero while stronger channels stay positive.
+   Compare with a positive-only control. A previous moderate-negative sweep
+   showed little average brightness benefit, so judge results rather than
+   assuming that a more negative number is better.
+
+4. Probe representable neighbors around extreme values.
+   Float32 spacing increases with magnitude: around 999999 it is .0625; around
+   9999999 it is 1. Small contributions can be lost in subtraction/addition.
+   Neighbor probes can reveal sudden changes or demonstrate that several
+   different numbers produce identical pictures. This is rounding behavior,
+   not a reliable new-color multiplier. Sex and growth blends also matter.
+
+USING EXPERIMENT LAB > DISCOVER
+
+- Choose your dinosaur, pattern, sex, growth and lighting before opening the lab.
+  The lab freezes that context. Unrelated sections retain your current colors.
+- Isolated bright channels and Signed channel contrasts change only the target
+  section, producing 1-24 candidates. Pick a family or try All families.
+- Negative mask pairs holds the source at the entered negative level and tries
+  positive target colors. Try b -> f, b -> u, or m -> f. Change the source level
+  between batches (e.g. -1, -100, -4096, -999999, -9999999 or -1e8).
+- Precision neighbors uses the closest float32 value and neighboring values
+  around the entered center, with one fixed target color. All families uses
+  cyan for this method so color changes do not confound the neighbor comparison.
+- Pair methods allow 1-8 candidates. Each has Source only, Target only, and
+  Combined controls; all share a Baseline. At most 25 images are held in memory.
+- Existing channel locks and alpha are preserved. Eyes are never changed by
+  discovery. A seed repeats numeric candidates; it does not guarantee the same
+  picture on a different model, pattern, camera, renderer or lighting setup.
+- Run experiments, then Rank completed results. Baseline remains first;
+  candidates precede their controls. Original order restores generation order.
+- Vivid color rewards saturated bright pixels and penalizes white clipping.
+  Bright area measures linear luminance. Least white is useful for avoiding
+  washout but can rank a dark skin highly; inspect the preview too.
+- Interaction strength measures the display-image residual:
+     (combined - source-only) - (target-only - baseline).
+  It reports estimated visible model pixels above 8/255 in any channel. This
+  includes downstream lighting, clipping and sampling; it is not an exclusive
+  measure of mask overlap or proof of a new shader. Missing controls produce no
+  interaction score. Other scores also use an approximate background mask.
+- Identical pictures are flagged. Different raw numbers are not necessarily
+  different visible colors. The displayed average vivid HEX is a measured
+  screenshot color, not an equivalent skin import value.
+- Favorite interesting results, export named skin JSONs or keep them in My skin
+  library. Save findings JSON preserves exact documents, context, captured
+  locks, scores and thresholds without storing image assets.
+- Save a recipe to repeat the method on another pattern or dinosaur. Old
+  pre-discovery recipes remain readable. Recipes contain settings, not results.
+- Apply a promising result, inspect it at higher preview detail, try other
+  patterns/sex/growth, then record an actual in-game comparison in My skin
+  library. Low-resolution noise alone is weak evidence of a repeatable effect.
+
+EVIDENCE IN THE DEVELOPMENT PROJECT
+Bright-Color-Study/README.txt: 192 recipes / 576 renders plus 108 import retests.
+Negative-Body-Flank/Explanation.txt: shader masks and controlled reproductions.
+Negative-9999999-Study/Explanation.txt: 704 contexts / 142,912 evaluations and
+float32 diagnostics. These studies are bounded tests, not exhaustive coverage.
+The portable release includes this guide; the larger study folders remain in
+the development project to avoid increasing download size.

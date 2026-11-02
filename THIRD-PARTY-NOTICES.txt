@@ -1,0 +1,8 @@
+Bundled runtime components:
+Python 3.12: runtime/LICENSE.txt (PSF license and bundled notices).
+NumPy: runtime/Lib/site-packages/numpy-2.3.5.dist-info/licenses/.
+NumPy binary dependencies: runtime/Lib/site-packages/numpy.libs/ and NumPy notices.
+Pillow: runtime/Lib/site-packages/pillow-12.3.0.dist-info/licenses/.
+Tcl/Tk: runtime/tcl/ license files, with Python's bundled runtime notices.
+Windows system libraries and fonts are used from the operating system and are
+not copied into this package. Game assets are not covered by these licenses.

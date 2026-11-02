@@ -1,0 +1,100 @@
+"""Legacy clean body color recovered from owned shader-727, SSA 626/627/628."""
+import numpy as np
+
+def color(sample,cb,u,v):
+    v5 = 13
+    v6 = 12
+    v7 = 11
+    v12 = 6
+    v116 = u
+    v117 = v
+    v251 = v12
+    v252 = sample(v251,v116,v117)
+    v253 = v252[0]
+    v254 = v252[1]
+    v255 = np.float32(-0.0) - v254
+    v256 = v252[2]
+    v257 = np.float32(-0.0) - v256
+    v258 = v257 - v254
+    v259 = v258 + v253
+    v260 = np.clip(v259,np.float32(0),np.float32(1))
+    v261 = v257 - v253
+    v262 = v261 + v254
+    v263 = np.clip(v262,np.float32(0),np.float32(1))
+    v264 = v263 + v260
+    v265 = v255 - v253
+    v266 = v265 + v256
+    v267 = np.clip(v266,np.float32(0),np.float32(1))
+    v268 = v264 + v267
+    v540 = cb[6]
+    v553 = v7
+    v555 = sample(v553,v116,v117)
+    v557 = v555[1]
+    v558 = v557 <= np.float32(2.980232949312267e-08)
+    v559 = np.log2(v557)
+    v560 = v559 * np.float32(2.200000047683716)
+    v561 = np.exp2(v560)
+    v562 = np.where(v558,np.float32(0.0),v561)
+    v563 = np.minimum(v562,np.float32(0.5))
+    v564 = np.float32(1.0) - v563
+    v565 = v564 * np.float32(2.0)
+    v566 = v6
+    v568 = sample(v566,v116,v117)
+    v569 = v568[0]
+    v570 = v568[1]
+    v571 = v568[2]
+    v572 = np.float32(1.0) - v569
+    v573 = np.float32(1.0) - v570
+    v574 = np.float32(1.0) - v571
+    v575 = v572 * v565
+    v576 = v573 * v565
+    v577 = v574 * v565
+    v578 = np.float32(1.0) - v575
+    v579 = np.float32(1.0) - v576
+    v580 = np.float32(1.0) - v577
+    v581 = v563 * np.float32(2.0)
+    v582 = v569 * v581
+    v583 = v570 * v581
+    v584 = v571 * v581
+    v585 = v563 >= np.float32(0.5)
+    v586 = np.where(v585,v578,v582)
+    v587 = np.where(v585,v579,v583)
+    v588 = np.where(v585,v580,v584)
+    v589 = np.float32(1.0) - v586
+    v590 = np.float32(1.0) - v587
+    v591 = np.float32(1.0) - v588
+    v592 = v589 * np.float32(2.0)
+    v593 = v590 * np.float32(2.0)
+    v594 = v591 * np.float32(2.0)
+    v595 = v540[3]
+    v596 = v595 * v116
+    v597 = v595 * v117
+    v600 = v5
+    v602 = sample(v600,v596,v597)
+    v603 = v602[0]
+    v604 = np.float32(0.5) - v603
+    v605 = v604 * v268
+    v606 = v605 + v603
+    v607 = np.float32(1.0) - v606
+    v608 = v592 * v607
+    v609 = v593 * v607
+    v610 = v594 * v607
+    v611 = np.float32(1.0) - v608
+    v612 = np.float32(1.0) - v609
+    v613 = np.float32(1.0) - v610
+    v614 = v586 * np.float32(2.0)
+    v615 = v587 * np.float32(2.0)
+    v616 = v588 * np.float32(2.0)
+    v617 = v614 * v606
+    v618 = v615 * v606
+    v619 = v616 * v606
+    v620 = v586 >= np.float32(0.5)
+    v621 = np.where(v620,v611,v617)
+    v622 = v587 >= np.float32(0.5)
+    v623 = np.where(v622,v612,v618)
+    v624 = v588 >= np.float32(0.5)
+    v625 = np.where(v624,v613,v619)
+    v626 = np.clip(v621,np.float32(0),np.float32(1))
+    v627 = np.clip(v623,np.float32(0),np.float32(1))
+    v628 = np.clip(v625,np.float32(0),np.float32(1))
+    return np.stack((v626,v627,v628),axis=-1)

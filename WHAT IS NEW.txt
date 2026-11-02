@@ -1,0 +1,38 @@
+Skin Studio Idle Edition — 1.4.1
+
+Lightweight additions since 1.0.0:
+- Design / View / Tools layout with optional help and preview details.
+- Plain-English color-interaction guide and Pops / AI assistance credits.
+- Live pattern audition while editing, with safe handling of pending changes.
+- Experiment Lab: channel locks, value sweeps and seeded variations.
+- Linked section sweeps, two-section grids and negative-pair starting points.
+- Discovery searches with ranked previews, four-state controls and findings JSON.
+- Preset-save durability and finite extreme-value refinement fixes.
+- Saved recipes, favorite results, refinement and experiment contact sheets.
+- Exact slot copy/paste, tagged color presets and numeric difference inspection.
+- Non-destructive export preflight and optional remembered workspace settings.
+- Timestamped personal in-game test records attached to saved designs.
+- Custom A/B comparisons and editable checkpoint sets.
+- Pattern audition and labeled contact sheets.
+- Personal skin library with favorites, tags and your in-game test notes.
+- Undo/Redo with exact values and safe handling of pending edits.
+- Section influence probes for inspecting color-slot interactions.
+- Preview lighting presets, direction and strength.
+- Optional recovery copies in ordinary editable-project JSON format.
+
+The package still has one idle per dinosaur. No additional game assets or
+non-idle animation clips were added for these features. Your own designs and
+libraries are not included. Extract this release into its own folder, then use
+Open JSON or Open library to load the files you saved from an earlier release.
+Keep manually saved designs separate from the application and recovery copies.
+
+COMPACT TEXTURE STORAGE
+Textures and palette pictures use lossless compression. No texture resolution,
+color precision, dinosaur model, pattern or adult idle has been removed.
+
+VERSION 1.4.1
+Corrected feather materials for Austroraptor, Hypsilophodon and Oviraptor.
+Psittacosaurus now uses its original painted textures and masked bristles.
+Its body color values are preserved in designs but do not recolor this legacy material.
+The launcher keeps its console open while Studio runs so startup errors remain visible.
+Keep that console open until you close Studio.

@@ -1,0 +1,30 @@
+# Large runtime and game assets are distributed with GitHub Releases.
+/runtime/
+*.zip
+*.7z
+*.evmesh
+*.evmorph
+*.npz
+*.npy
+*.png
+*.webp
+*.jpg
+*.jpeg
+*.dds
+*.uasset
+*.ubulk
+*.ucas
+*.utoc
+*.pak
+*.dll
+*.exe
+/app/outputs/EvrimaSkinEditor/palettes/library.json
+/PACKAGE-MANIFEST.json
+/LOSSLESS-STORAGE.json
+# Local caches and private development settings.
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.log

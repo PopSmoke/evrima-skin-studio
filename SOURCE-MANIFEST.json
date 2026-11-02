@@ -1,0 +1,374 @@
+{
+  "format": "skin-studio-source-1",
+  "version": "1.4.1",
+  "edition": "Idle Edition",
+  "release_archive": "Evrima-Skin-Studio-Idle-1.4.1.zip",
+  "release_sha256": "088a3e40c4d243088c020618a760b0f202cf9de8367c96a3ed906f57a3f99e57",
+  "files": [
+    {
+      "file": "app/outputs/AssetDecode/morph-coverage.json",
+      "bytes": 19780,
+      "sha256": "f8ff53e4e7dedfb3fe3a6c886ced79cb232c762220f984f7571c67213c310e3a"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/blood-library.json",
+      "bytes": 1050,
+      "sha256": "846cf2aea44aadf91a2fbfb2074aa56ef6390a304b782c0540a15b47a014b1cb"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/carcass_morphs.py",
+      "bytes": 2220,
+      "sha256": "c452071e6e566e25cf683841d2000a61072cee60fe00c9f12c3349f40c42d414"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/dinosaur-models.json",
+      "bytes": 5849,
+      "sha256": "846a8dd483662c9324f26bd363f84ebe9b76eeed5fdcf11e9b8c2cd20354a963"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/dinosaur_masked_normal.glsl",
+      "bytes": 3039,
+      "sha256": "828a66f3501c6a19b14cf01e38166d844dba532194624cc73dda7b98a0b4a3e5"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/dinosaur_models.py",
+      "bytes": 6366,
+      "sha256": "0fc3bb223b44953406989b6c44f93927f8e6d471fac73c05592cec1774629f4e"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/dinosaur_skins.py",
+      "bytes": 15466,
+      "sha256": "8bfc5891b64791663d9aae47fa6ff4f256ed1bb0eed405e6a04b2bb9a55ba7c6"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/dinosaur_surface.py",
+      "bytes": 19271,
+      "sha256": "bc6ed1ea17a4bd5e987fb0b9343e566e83f25470267a8c364c7a5d7feb7c3d8c"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/dirt_road_surface.py",
+      "bytes": 6969,
+      "sha256": "5725685d686cce7d90305bc01a6e66e3b2631f68a0613f99f8e38592abf316e6"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/eye-library.json",
+      "bytes": 8209,
+      "sha256": "c3b9677d673885630248b5246f9d0d2b8211fcb0cfd66dbb61d9b0b99f6a749a"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/eye_color_kernel.py",
+      "bytes": 10388,
+      "sha256": "baa7a35a78274e9fcee877756d4c2e4c9576ab12c2048ebcbf7927999378a4a0"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/hangar_surface.py",
+      "bytes": 6935,
+      "sha256": "01f1166ca564868684920a2d0fa9e097cf559ae87158eca951683fb86a90a7c6"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/injury-library.json",
+      "bytes": 921,
+      "sha256": "74eefc346a0e7cf56edd9d62805b7a1046b9bf55567bfa878b5fc05ccc45c76f"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/mesh_renderer.py",
+      "bytes": 35806,
+      "sha256": "fa1cbc5e1b2edae1bd56033b24fed152301691bfc9f5cad3e9cab2d21a554a0d"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/morph_inspector.py",
+      "bytes": 10565,
+      "sha256": "924bf19d16dd064ec13acd6b09a5c7b7f63393527f24833cd8100505608939d2"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/morph_library.py",
+      "bytes": 5117,
+      "sha256": "4b1e54f8a51e35c02774c8462fbb72f99eb182addaf14c43d77e1ea48d5445de"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/reflectance-library.json",
+      "bytes": 2881,
+      "sha256": "988abaaf9c55688857152cf65afe052dd63de7d69ddc473ea766a63a93576995"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/replay_identity.py",
+      "bytes": 8039,
+      "sha256": "d1c96850ccc50e9f3d58c93b21dafedd4abfb43ca750683d5b15f9c566f1fa8a"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/replay_render.py",
+      "bytes": 9827,
+      "sha256": "75c8e92ffa78bb7a2db55424f3c33a490828a3e47683f26f5c977ee1bf07da0b"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/replay_texture_filter.py",
+      "bytes": 4834,
+      "sha256": "97ea553bc95c6c475c94f2693b31a9b132cc6c367efa57fae96c576f93a9c620"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/sharp_rock_surface.py",
+      "bytes": 7434,
+      "sha256": "7b4a5ed60b99700098d91b2545bf88949fd8abdde5071b327c02f191821eb832"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin-library.json",
+      "bytes": 43693,
+      "sha256": "5388852ca03376ea202f286ff405e2db6102d659c1a0c4c3cde166cdf23bd75d"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin_blood.glsl",
+      "bytes": 673,
+      "sha256": "47f4c45c5cbd6ff0e63c9faabc4c8e9019257cede59391e62ce625d50ce8b8bf"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin_color_kernel.py",
+      "bytes": 11920,
+      "sha256": "fd21819411aaa713e6ed239d16676fc476745142ee191e80c11c6a28f80e9c16"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin_injury.glsl",
+      "bytes": 821,
+      "sha256": "cd8980a5f6460b6262875d2dc0f4c4bbcaba7478a1bf76d083ccc17bdfabf6b1"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin_normal.glsl",
+      "bytes": 2895,
+      "sha256": "43fbab8119a36a9e3078fe807acd1e0475102c9e46facebef6b6aad6bee9c694"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin_reflectance.glsl",
+      "bytes": 216,
+      "sha256": "ac1f44b4fe560a6f3966ad3c847a3ed41a3b6dbc2f414f192cb8a8ebf5255523"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/skin_wetness.glsl",
+      "bytes": 492,
+      "sha256": "719b8049c90b9944dff69899b80a9dd20fdb565ab3b41089fa1aac32202a1d96"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/surface-library.json",
+      "bytes": 7720,
+      "sha256": "e031589bfbdb2b3fd5f334469cf1f542d59bd8e678b1538663de0ff34a71f66a"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/terrain_mip_cache.py",
+      "bytes": 2950,
+      "sha256": "cdebc1d669ed2bb1c14c663b5fcb5560a97b46c4539c9f1591c3bae23baea039"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/terrain_snow.py",
+      "bytes": 4496,
+      "sha256": "777847bdf41c8d1768ff27f7b6505042e2d75088bff542add9f26b18f67d2cbb"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/water_surface.py",
+      "bytes": 7615,
+      "sha256": "698ee616e21c50a7d4aa55c4a5d19e7e749fef1b97d76f7adb9ec308c7a942c1"
+    },
+    {
+      "file": "app/outputs/EvrimaReplayViewer/wetness-library.json",
+      "bytes": 548,
+      "sha256": "1e7541508b778abf9575496c57b8df7d9823f0ad8259b5f99e20462f28e71497"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/animation-catalog.json",
+      "bytes": 67591,
+      "sha256": "54c01de3f638daca69289b533008f207340160b5cd95a7b68571cabb74f28bb1"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/assets.json",
+      "bytes": 404335,
+      "sha256": "64ccb88270d1b148b4adb173e388c02eff9f3a6324a04ef1b50489888b2e45d5"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/model-support.json",
+      "bytes": 8771,
+      "sha256": "c3b7c732b4eb7db5028622818847b673be8f30a36dc59010c730dfc376169454"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_animations.py",
+      "bytes": 6749,
+      "sha256": "6eee222b0c93ec32d71f9abd28e2fcd79cc40cad14445ba57527629d72bb09e8"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_assets.py",
+      "bytes": 14138,
+      "sha256": "7d29059d9dfcd3eb82d25afa9d35c383cae315e34df9f24dda61242cbc50a4f1"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_checkpoints.py",
+      "bytes": 2836,
+      "sha256": "4df23b2ee7c9983842d57addd1bb3d8a602d417d3546241b4a0caf91607c53e2"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_compare_ui.py",
+      "bytes": 17030,
+      "sha256": "109a2b65ffaf54aee613c2c17d8bcf102f186f0db182ae74b368faf69aa25027"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_discovery.py",
+      "bytes": 7392,
+      "sha256": "b723be0c2939ffdadb3221c1e54ba26d50a77013dad4e305639188fde433f87d"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_discovery_ui.py",
+      "bytes": 5629,
+      "sha256": "751b57fab9b8f4dade5bbf972b29fbeb12e7eb7c2afbb256cb386269bedf5442"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_document.py",
+      "bytes": 13665,
+      "sha256": "8abe87513245c8a8a679b7be5172d1b7a09d754fde768f11f2956b79bbeeeed0"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_editor.py",
+      "bytes": 63208,
+      "sha256": "47b4f47af5ed9ef45190edbce260e717004195625720de462176ffa684a58261"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_experiment_ui.py",
+      "bytes": 27935,
+      "sha256": "91e3760c141ced19dcc9d53d0ee7354613d4cd98000c5f842c0a72d11c3674ab"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_experiments.py",
+      "bytes": 10169,
+      "sha256": "ea00e8565c87c5a61f83451919f198014e750ebfc19ee2d2eae2c4a44811c859"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_help.py",
+      "bytes": 9279,
+      "sha256": "897c610f63408c1450649e19a57658af0ba3d225339c5d050abb35c924ee2a40"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_idle.py",
+      "bytes": 5342,
+      "sha256": "30b900ad650e18a47cee126eb2a3050832918f6f557bc227d4062657b9f62229"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_influence.py",
+      "bytes": 1777,
+      "sha256": "a1cfdc24c0c27fa45ba64f4146959659fe648e638b020d050c325baffb6b9d2a"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_influence_ui.py",
+      "bytes": 12371,
+      "sha256": "a509d791ba1ef03f037b22c9a77a88ecec64c1d4e65909fdf50627f33974b62c"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_lab_workflow.py",
+      "bytes": 7786,
+      "sha256": "89076099e97fcc81fa51ded42eba543c9ddf840e300f3d3a0d1ebbfe0bbbae3b"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_legacy_color.py",
+      "bytes": 3047,
+      "sha256": "ba94495f948de976f9cd7e3b5d260e8c87b2375a84d7fadff95f12c3d917973c"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_library.py",
+      "bytes": 3165,
+      "sha256": "4669b369a3a117b66a66773c43e07da7566a2b3cf5f1113c8bf6747053192012"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_library_ui.py",
+      "bytes": 14811,
+      "sha256": "a7273387cc87b7f0027ed924eddb4392c5d00282aae42fb66a8af1d07f71517a"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_lighting.py",
+      "bytes": 2647,
+      "sha256": "9d62a58a8a707cb63ae3cbff38e0ceb66a6435af91928167bc92df5dc1b37059"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_palettes.py",
+      "bytes": 10134,
+      "sha256": "7c7e984baa5390eb33df360e1c7a1b0b8d4ba87f8bc3a6d82cc138a30d4a99b9"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_pattern_audition.py",
+      "bytes": 19215,
+      "sha256": "20821d362ed320b3d1d2a3ac2e23cfc2e47dcc31ecc2fb3898899b4cd8320717"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_recovery.py",
+      "bytes": 3121,
+      "sha256": "bc860d66a83be513ca77c47fbb8afa378d68030e201e16b82049877135b10e8f"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_shapes.py",
+      "bytes": 3706,
+      "sha256": "c44c82e15a25aa971de43fcdf44b525a26747c65671d57369ae4ff0a872f2923"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_workflow.py",
+      "bytes": 13652,
+      "sha256": "fc341930ffe437cd7163e02d9fa8cb90f219ae9d1188f9507543c43ae616b2c1"
+    },
+    {
+      "file": "app/outputs/EvrimaSkinEditor/skin_workflow_ui.py",
+      "bytes": 19091,
+      "sha256": "023de8fdb63b60ab6e6bcc8926994e446e6fdf2542a152ccbfb4e5581e2d6f5f"
+    },
+    {
+      "file": "app/work/additional_eye_kernel.py",
+      "bytes": 10388,
+      "sha256": "c37aa9a3a9cd63a8077de54f521a39e410b2a60bce77cf2de613343b4f3c45c0"
+    },
+    {
+      "file": "app/work/dilophosaurus_color_kernel.py",
+      "bytes": 12121,
+      "sha256": "011beb1856d5e85e87cf428318946ff445f36a1ecc34bb20f3b5bf12be4913c6"
+    },
+    {
+      "file": "COLOR DISCOVERY.txt",
+      "bytes": 5750,
+      "sha256": "52f5da769ecf304c9c5dd69e7d954861649f85ab366659b7970b19a9038994cf"
+    },
+    {
+      "file": "CREDITS.txt",
+      "bytes": 441,
+      "sha256": "f68bed6ebf442589eb651c3428b61b7adb4531c4333e949a78565fde014566c5"
+    },
+    {
+      "file": "launch.py",
+      "bytes": 1522,
+      "sha256": "58c852da12919172d95d069c6ba66ef3f02a8425fa25370f71f581a6f6caf023"
+    },
+    {
+      "file": "Open Skin Studio.cmd",
+      "bytes": 691,
+      "sha256": "134a19f2e84b0d20ab290061db69c86ef30a5fcbcaea9c0c23811ebfcb037386"
+    },
+    {
+      "file": "READ ME.txt",
+      "bytes": 2131,
+      "sha256": "8201951e833029dd6221d129e3e0477ff77a4fd96b2e87d96b7ed131bbdc4e41"
+    },
+    {
+      "file": "TECHNICAL NOTES.txt",
+      "bytes": 9049,
+      "sha256": "b1537cdcfd7d515d42f0b1a7af84811e4c3d4640ef0805e2aecbbb88e46c6e48"
+    },
+    {
+      "file": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 553,
+      "sha256": "ca43e140d531fd4be0835450d39f3c464eca33ee8679978e820da503a08890a7"
+    },
+    {
+      "file": "VALIDATION.txt",
+      "bytes": 1590,
+      "sha256": "f8c7bf4d24ff413fb25efdc7cbbb8a4d9425951157df81737a4ce55f706f20ee"
+    },
+    {
+      "file": "version.json",
+      "bytes": 330,
+      "sha256": "ae899202753e9beeffb19694b52588dce279b1550cd5f717a530ad5ec8307ede"
+    },
+    {
+      "file": "WHAT IS NEW.txt",
+      "bytes": 2321,
+      "sha256": "be1580366a7e65272dad0614e342a540275ccadeceda42c1e4e3e87eb2ed2828"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+SKIN STUDIO SOURCE — 1.4.1 IDLE EDITION
+
+This source snapshot matches the published 1.4.1 package. It includes the
+application Python, GLSL shaders, small JSON catalogs, launcher and user guides.
+SOURCE-MANIFEST.json records the original release checksums for copied files.
+
+Large dependencies remain in the release ZIP: bundled Python/Tcl/Tk runtime,
+models, morph data, idle clips, textures, palette images and their bulk catalog.
+No additional game installation is required to run the complete release.
+
+For local code changes, extract the complete release into a development folder.
+Copy edited repository files into that folder at the same relative paths.
+Keep an unchanged copy of the release for comparison. Launch the development
+folder's Open Skin Studio.cmd to use its bundled runtime and assets.
+
+Some recovered rendering modules have integrity hashes in assets.json. Editing
+those files requires updating their corresponding catalog hashes and validating
+the changed rendering. This is separate from the published release's checksum.
+
+The application source is not a complete reproduction of the research workspace
+or an automated asset-extraction/release-build pipeline. Source code (zip) on a
+GitHub release reflects that release's tag; the existing v1.4.1 tag predates this
+source import. Browse main for these files, or use the full application ZIP.

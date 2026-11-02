@@ -1,0 +1,133 @@
+EVRIMA SKIN STUDIO — IDLE EDITION 1.4.1
+Windows x64 portable package
+
+START
+1. Extract the ENTIRE ZIP into a folder you can write to.
+2. Double-click Open Skin Studio.cmd in the extracted folder.
+3. Keep runtime, app and launch.py beside the launcher. You can move the whole
+   folder to another location or drive. No Python installation, Steam launch,
+   server connection or installed game files are required by this package.
+
+INCLUDED
+29 dinosaur models, 98 pattern/texture choices, original full-resolution source
+textures, supported growth/prime shapes, one recovered idle per dinosaur,
+the tested palette library and its reference pictures, and the private runtime.
+Other animation clips, maps, scenery, replays and development test outputs
+are omitted. The development project's full animation library is unchanged.
+
+USE
+Select a dinosaur and pattern. Edit colors with the picker, hex input or Raw RGBA.
+Raw values preserve negative, tiny and large finite numbers without a 0–1 clamp.
+Play pauses/resumes the idle. Loop, Speed, Restart and the timeline control it.
+Reference pose restores the original mesh pose. Drag to orbit; scroll to zoom.
+Prime previews the supported shape; it does not determine in-game prime status.
+Keep Use original eye texture and colors enabled for the original eyes.
+Palettes opens the library; Apply uses its body colors on the current dinosaur.
+Experiment Lab adds channel/section locks, value sweeps and seeded variations.
+Sweep mode can link all body-shader sections, link chosen sections, or create
+a two-section grid. Grids try every combination of two lists (maximum 24).
+Use one value to hold a section fixed. Negative-pair starting points set up
+Body/flank, Body/underbelly or Markings/flank while preserving channel locks.
+Body sections share a shader; eyes remain separate. Visible interactions depend
+on species, pattern, sex, growth and colors. Batch notes list exact assignments.
+It uses a snapshot of the current design; Apply selected changes it with Undo.
+Up to 24 results are previewed one at a time using existing assets. Cancel or
+clear results anytime; no preview cache is written to disk. Eyes start locked.
+Export selected saves a named JSON; export all creates a new folder with settings
+notes. Preview differences and bright colors are not proof of in-game emission.
+Recipes / saved sweep settings keeps tagged, searchable experiment recipes in
+a small JSON collection. Use them on the current skin; no source model is stored.
+Preset names, tags and favorite edits are kept on selection, filtering, saving
+and closing. Invalid details remain open for correction. Keep details is optional.
+Discover searches isolated bright channels, signed contrasts, negative mask
+pairs and float32 neighbors. Rank by vivid color, brightness, low white clipping
+or four-state interaction response. Save findings preserves exact inputs and
+measurements. Read COLOR DISCOVERY.txt for examples, controls and limitations.
+Favorite results, export only favorites, or keep them in My skin library before
+rerunning. Result tools also exports labeled contact sheets on demand.
+Refine this result makes a selected result the new lab baseline; choose a section
+and percentage range. Zero channels use the explicit range. Locks still apply.
+Design tools / workspace (main sidebar) provides exact slot copy/paste, tagged
+color presets, a numeric skin-difference inspector and export range checks.
+Export profiles report issues without changing values or guaranteeing acceptance.
+Workspace can optionally remember window layout, quality, lighting and export
+folder in workspace-preferences.json beside Studio. Save settings to enable it.
+My skin library's Record in-game test adds a date, model context, server/build,
+preview-match rating and observations. Save the library to retain these records.
+Compare custom skins / checkpoints shows A/B colors on matching model settings,
+camera, light and reference pose. Keep up to 12 named checkpoints; Save set keeps
+their exact colors and model settings in a small JSON. Load set merges safely.
+Apply B colors keeps the current model; Restore B restores B's original setup.
+Both support Undo. Save comparison PNG exports the current successful pair.
+Audition patterns (below Pattern) renders the current colors on each available
+pattern with matching camera and pose. Asset-only textures are optional and
+labeled. Select a card to apply with Undo, save its editable project, or save a
+contact sheet. Rendering is sequential, cancellable, and uses existing assets.
+My skin library (below custom comparison) keeps up to 500 complete designs with
+favorites, searchable tags and your own in-game test notes. Save library writes
+a small JSON collection; Open library restores it. No pictures or assets are
+stored. Apply colors or restore a complete design with Undo. Unsaved library
+changes prompt on Studio exit. Export selected JSON uses the design name.
+Section influence (below My skin library) probes one color slot with two RGB
+values and highlights pixels that change in the fixed-camera preview. Values
+can be negative or extreme; alpha and the working design remain unchanged.
+This measures displayed differences, not recovered anatomical masks. Save PNG
+exports the labeled comparison. No new assets or stored thumbnail cache.
+
+SAVE
+Draft recovery is optional and off at startup. Choose a separate recovery JSON
+file in the sidebar to update it after valid design changes (about 1.5 seconds).
+Reopen it with Open JSON after a restart; enable recovery again each session.
+The copy stores exact design/model settings, not lighting, library or Undo history.
+Save copy now retries a failed update; Stop recovery keeps the file. The latest
+valid draft is flushed on normal exit. A recovery copy is not a manual save;
+automatic updates replace its previous contents, so use a separate project too.
+Preview lighting controls (below texture size) offer Studio, Soft neutral, Warm,
+Cool and Dim presets, camera-relative light direction, and 0–2x strength. Reset
+restores the original light. These are authored inspection lights, not game
+environments. Comparisons share the chosen light; labels/PNG metadata record it.
+Lighting is session-only and does not modify skin JSON or rebake textures.
+Undo / Redo restores up to 30 design changes with exact values and model settings.
+New edits replace the redo branch. History stays in this session, with no images
+or assets stored. Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z work outside text fields; use the
+toolbar while typing. Library metadata and files are not part of design history.
+Set Design name, then Export JSON to save <Design name>.json. Invalid Windows
+filename characters become underscores. Older compact skin JSON still imports.
+Save project retains species, pattern, growth, prime and the editable design.
+Compact exports contain colors, not those model settings. Keep a project file
+as well if you want to restore the full setup. Save preview writes a PNG.
+Your designs are saved only at the destination you choose. This ZIP contains
+no personal saved designs or replays.
+
+PREVIEW LIMITS
+Studio lighting is approximate. Materials for some legacy/experimental models
+are not fully verified. Four species have verified growth/prime size curves;
+22 others have experimental elder shapes, and three retain reference geometry.
+Adult idles are applied to the displayed proportions. These are not the game's
+full animation graph, age-specific movement, environment or postprocessing.
+Palette pictures remain earlier reference tests, as identified in the library.
+
+TROUBLESHOOTING
+Run from the extracted folder, not inside the ZIP. A Windows graphics driver
+with working OpenGL is required. No administrator install is needed.
+If startup fails, check app/outputs/EvrimaSkinEditor/last-error.txt or
+%LOCALAPPDATA%/EvrimaSkinStudio/startup-error.txt. This release is not code-signed;
+Windows or organization policies may restrict downloaded programs.
+
+ABOUT
+An independent offline preview tool; not an official game release.
+Game asset provenance: recovered build 24664737. Models/textures remain the
+original game's assets. No redistribution rights are granted by this package.
+Runtime third-party notices are in runtime/LICENSE.txt and the NumPy/Pillow
+distribution metadata and license folders under runtime/Lib/site-packages.
+
+COMPACT TEXTURE STORAGE
+Textures and palette pictures use lossless compression. No texture resolution,
+color precision, dinosaur model, pattern or adult idle has been removed.
+
+VERSION 1.4.1
+Corrected feather materials for Austroraptor, Hypsilophodon and Oviraptor.
+Psittacosaurus now uses its original painted textures and masked bristles.
+Its body color values are preserved in designs but do not recolor this legacy material.
+The launcher keeps its console open while Studio runs so startup errors remain visible.
+Keep that console open until you close Studio.

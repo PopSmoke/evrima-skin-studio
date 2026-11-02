@@ -1,0 +1,21 @@
+Release validation — Idle Edition 1.4.1
+Passed from a separate, relocated folder using only the bundled Python runtime.
+29 dinosaur models and their idle clips; 58 OpenGL rendered frames.
+All 253 full-resolution textures and 3,480 palette images passed integrity checks.
+For compact editions, every stored image also passed an exact decoded-RGBA
+comparison against its original pixels, including color beneath transparency.
+Growth/prime geometry, animation playback, pause, color editing, reference pose,
+species changes, palette browsing and design-name JSON export passed.
+The packaged launcher was exercised with a hidden application window.
+Recent additions passed: lighting without texture rebakes, Undo/Redo, personal
+skin library, custom A/B comparison, pattern audition, section influence,
+Experiment Lab window and draft recovery. Also verified: saved recipes and color
+presets, linked section grids, favorites and exports, experiment contact sheets,
+refinement, exact RGBA transfer, numeric differences, export checks, workspace
+preferences and personal in-game test records. The GUI/launcher pass has 32 checks.
+Discovery searches passed four-state scoring, ranking, findings export and
+float32-neighbor checks. Pending preset saves and finite extreme-value refinement
+also passed. Bright preview colors do not establish live-game emission.
+Python file-access auditing recorded no reads from the original project.
+This was a relocation test on the development Windows PC, not a separate-PC
+or Windows-version certification. The release is not code-signed.

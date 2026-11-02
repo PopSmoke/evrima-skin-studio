@@ -1,0 +1,42 @@
+SKIN STUDIO — IDLE EDITION 1.4.1
+Created and directed by Pops
+Discord: _bruce.
+Development, research and testing assistance: OpenAI Codex (AI).
+
+GET STARTED
+Extract the ZIP into its own folder and open Skin Studio using the launcher.
+Design: choose your dinosaur, pattern and colors. The preview follows your edits.
+View: adjust the preview lighting and detail.
+Tools: find experiments, comparisons, your library and recovery copies.
+Help & About: read plain-English tips, known color interactions and credits.
+
+SAVE YOUR WORK
+Save project keeps the colors and full setup, including the dinosaur and pattern.
+Export skin creates a JSON file named after your design. Skin exports do not
+select a dinosaur or pattern in game. Keep a project too if you want to return
+to the full setup. Save image exports a picture of the preview.
+Save libraries and checkpoint sets separately to keep them after closing.
+Recovery copies are optional and must be enabled each session.
+
+TRY PATTERNS TOGETHER
+Leave Audition patterns open while you edit. Its cards refresh after a short
+pause. Choose a card and Apply to use that pattern; the window stays open.
+
+ABOUT THE PREVIEW
+In-game lighting and patterns may change the result. Bright colors do not
+automatically mean glow. This edition includes one idle animation per dinosaur.
+Game models and textures belong to their respective owners. Skin Studio is
+an independent tool, not an official product of The Isle.
+
+More detail: Help & About in Studio, TECHNICAL NOTES.txt and CREDITS.txt.
+
+COMPACT TEXTURE STORAGE
+Textures and palette pictures use lossless compression. No texture resolution,
+color precision, dinosaur model, pattern or adult idle has been removed.
+
+VERSION 1.4.1
+Corrected feather materials for Austroraptor, Hypsilophodon and Oviraptor.
+Psittacosaurus now uses its original painted textures and masked bristles.
+Its body color values are preserved in designs but do not recolor this legacy material.
+The launcher keeps its console open while Studio runs so startup errors remain visible.
+Keep that console open until you close Studio.
